@@ -8,12 +8,18 @@ namespace ConsoleApp1
 {
     class Program
     {
-
-        public int Total;
-        public string Flavor;
-
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
+            float Total;
+            string Kind;
+            string Size;
+
+            int ChocolateSauce;
+            int CaramelDrizzle;
+            int Sprinkles;
+            int ChocolateChips;
+            int Coconut;
+
             WelcomeMessage.welcomeMessage();
             Menu.menu();
         }

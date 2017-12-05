@@ -8,6 +8,7 @@ namespace ConsoleApp1
 {
     class WelcomeMessage
     {
+        //intro text the player is welcomed with
         public static void welcomeMessage()
         {
             Console.Clear();
