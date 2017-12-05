@@ -8,6 +8,8 @@ namespace ConsoleApp1
 {
     class Toppings
     {
+        public Cupcake ck;
+
         public static void ToppingsOpening()
         {
             Console.Clear();
@@ -31,40 +33,41 @@ namespace ConsoleApp1
 
             OnTop = Console.ReadLine();
 
+            //updates the toppings value and lets the player chose multiple by looping the switch
             switch(OnTop)
             {
                 case "1":
                     {
-                        //ChocolateSauce++;
-                        //Total + 0.39;
+                        Cupcake.ChocolateSauce++;
+                        Cupcake.Total += 0.39;
                         toppings();
                         break;
                     }
                 case "2":
                     {
-                        //CaramelDrizzle++;
-                        //Total + 0.49;
+                        Cupcake.CaramelDrizzle++;
+                        Cupcake.Total += 0.49;
                         toppings();
                         break;
                     }
                 case "3":
                     {
-                        //Sprinkles++;
-                        //Total + 0.25;
+                        Cupcake.Sprinkles++;
+                        Cupcake.Total += 0.25;
                         toppings();
                         break;
                     }
                 case "4":
                     {
-                        //ChocolateChips++;
-                        //Total + 0.35;
+                        Cupcake.ChocolateChips++;
+                        Cupcake.Total += 0.35;
                         toppings();
                         break;
                     }
                 case "5":
                     {
-                        //Coconut++;
-                        //Total + 0.25;
+                        Cupcake.Coconut++;
+                        Cupcake.Total += 0.25;
                         toppings();
                         break;
                     }

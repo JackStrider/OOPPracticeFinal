@@ -27,22 +27,22 @@ namespace ConsoleApp1
             {
                 case "1":
                     {
-                        //Total + 1.99;
-                        //Size = "Mini";
+                        Cupcake.Total += 1.99;
+                        Cupcake.Size = "Mini";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "2":
                     {
-                        //Total + 3.99;
-                        //Size = "Standard";
+                        Cupcake.Total += 3.99;
+                        Cupcake.Size = "Standard";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "3":
                     {
-                        //Total + 6.99;
-                        //Size = "Maxi";
+                        Cupcake.Total += 6.99;
+                        Cupcake.Size = "Maxi";
                         Toppings.ToppingsOpening();
                         break;
                     }
@@ -68,22 +68,22 @@ namespace ConsoleApp1
             {
                 case "1":
                     {
-                        //Total + 1.99;
-                        //Size = "Mini";
+                        Cupcake.Total += 1.99;
+                        Cupcake.Size = "Mini";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "2":
                     {
-                        //Total + 3.99;
-                        //Size = "Standard";
+                        Cupcake.Total += 3.99;
+                        Cupcake.Size = "Standard";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "3":
                     {
-                        //Total + 6.99;
-                        //Size = "Maxi";
+                        Cupcake.Total += 6.99;
+                        Cupcake.Size = "Maxi";
                         Toppings.ToppingsOpening();
                         break;
                     }
@@ -109,22 +109,22 @@ namespace ConsoleApp1
             {
                 case "1":
                     {
-                        //Total + 2.99;
-                        //Size = "Mini";
+                        Cupcake.Total += 2.99;
+                        Cupcake.Size = "Mini";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "2":
                     {
-                        //Total + 4.99;
-                        //Size = "Standard";
+                        Cupcake.Total += 4.99;
+                        Cupcake.Size = "Standard";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "3":
                     {
-                        //Total + 7.99;
-                        //Size = "Maxi";
+                        Cupcake.Total += 7.99;
+                        Cupcake.Size = "Maxi";
                         Toppings.ToppingsOpening();
                         break;
                     }
@@ -150,22 +150,22 @@ namespace ConsoleApp1
             {
                 case "1":
                     {
-                        //Total + 3.50;
-                        //Size = "Mini";
+                        Cupcake.Total += 3.50;
+                        Cupcake.Size = "Mini";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "2":
                     {
-                        //Total + 5.50;
-                        //Size = "Standard";
+                        Cupcake.Total += 5.50;
+                        Cupcake.Size = "Standard";
                         Toppings.ToppingsOpening();
                         break;
                     }
                 case "3":
                     {
-                        //Total + 8.50;
-                        //Size = "Maxi";
+                        Cupcake.Total += 8.50;
+                        Cupcake.Size = "Maxi";
                         Toppings.ToppingsOpening();
                         break;
                     }

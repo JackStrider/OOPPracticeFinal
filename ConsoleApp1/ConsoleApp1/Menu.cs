@@ -15,10 +15,13 @@ namespace ConsoleApp1
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
-            //if (Total = 0) 
+
+            //gives a different starting phrase incase the player came back to make another cupcake
+            if (Cupcake.Total == 0) 
             Console.WriteLine("As you read the words in the book, they begin to narrate themselves.\n");
-            //else ()
-            //Console.WriteLine("You return to the book and it begins to read again");
+            else
+            Console.WriteLine("You return to the book and it begins to read again");
+
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Lets begin with what flavor your in the mood for");
             Console.WriteLine("We have:");
@@ -33,25 +36,25 @@ namespace ConsoleApp1
             {
                 case "1":
                     {
-                        //Flavor = "Original Vanilla";
+                        Cupcake.Kind = "Original Vanilla";
                         Flavor.OriginalVanilla();
                     break;
                     }
                 case "2":
                     {
-                        //Flavor = "Chocolate";
+                        Cupcake.Kind = "Chocolate";
                         Flavor.Chocolate();
                         break;
                     }
                 case "3":
                     {
-                        //Flavor = "Deluxe Red Velvet";
+                        Cupcake.Kind = "Deluxe Red Velvet";
                         Flavor.DeluxeRedVelvet();
                         break;
                     }
                 case "4":
                     {
-                        //Flavor = "Limited Edition Espresso Supreme";
+                        Cupcake.Kind = "Limited Edition Espresso Supreme";
                         Flavor.LimitedEditionEspressoSupreme();
                         break;
                     }
